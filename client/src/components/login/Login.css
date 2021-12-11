@@ -1,0 +1,20 @@
+.loginbox{
+  display:grid;
+  place-items:center;
+  width:350px;
+  height:350px; 
+  margin:10px;
+  border:none;
+  border-radius:10px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+.googleauthbtn{
+  background-color:#4285F4 !important;
+  color:#F6F6F6!important
+}
+@media only screen and (max-width: 600px) {
+    .loginbox{
+     width:250px;
+     height:250px;
+    }  
+}

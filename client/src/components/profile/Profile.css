@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+.userprofile{
+    display:flex;
+    justify-content:center;
+    margin-top:50px;
+    align-items:center;
+}
+.userprofile img{
+    width:200px;
+    height:200px;
+    border:none;
+    border-radius:50%;
+}
+.userprofile h3{
+ margin-left:70px; 
+ font-family: 'Inter', sans-serif;  
+}
+
+@media only screen and (max-width: 600px){
+    .userprofile img{
+        width:100px;
+        height:100px;  
+    } 
+    .userprofile h3{
+        margin-left:10px; 
+    } 
+}
